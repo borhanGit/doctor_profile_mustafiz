@@ -5,7 +5,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <a href="" class="logo me-auto"><img src="assets/frontend/img/logo.png" alt="" class="img-fluid" style="height: 40%; max-width: 48%;" ></a> <br>
+            <a href="" class="logo me-auto"><img src="{{ asset('assets/frontend/img/logo.png') }}" alt="" class="img-fluid" style="height: 40%; max-width: 48%;" ></a> <br>
             <p>
               <strong>Phone:</strong> +88 01999 920 204<br>
               <strong>Email:</strong> info@ishaque-homeo.com<br>
@@ -35,8 +35,8 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Let's Talk</h4>
-            
-           
+
+
               <i class="fa fa-envelope"></i> <a href="#"> info@ishaque-homeo.com</a> <br>
               <i class="fa fa-phone"></i> <a href="#"> +88 01999 920 204</a>
           </div>
